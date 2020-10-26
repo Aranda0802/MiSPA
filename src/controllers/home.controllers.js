@@ -6,6 +6,12 @@ export default () => {
     divElement.classList= 'text-Red';
     divElement.innerHTML = views;
 
+
+    const btnClick = divElement.querySelector('#btnClick');
+    btnClick.addEventListener('click', () => {
+        alert('click!!!')
+    })
+
      return divElement;
 };
 
